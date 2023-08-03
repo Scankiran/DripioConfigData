@@ -2,8 +2,6 @@
 [{
     "name" : "Test1",
     "description" : "Test1",
-    "name" : "Test",
-    "description" : "Test",
     "instructionVideoLink" : "Test",
     "ratio" : "Test",
     "totalAmount" : 240,
@@ -15,7 +13,7 @@
     "time" : 30,
     "startTime" : 0,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test2",
@@ -24,7 +22,7 @@
     "time" : 30,
     "startTime" : 30,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test3",
@@ -33,7 +31,7 @@
     "time" : 30,
     "startTime" : 60,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test4",
@@ -42,15 +40,13 @@
     "time" : 30,
     "startTime" : 90,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     }
     ]
 },
 {
     "name" : "Test2",
     "description" : "Test2",
-    "name" : "Test",
-    "description" : "Test",
     "instructionVideoLink" : "Test",
     "ratio" : "Test",
     "totalAmount" : 240,
@@ -62,7 +58,7 @@
     "time" : 30,
     "startTime" : 0,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test2",
@@ -71,7 +67,7 @@
     "time" : 30,
     "startTime" : 30,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test3",
@@ -80,7 +76,7 @@
     "time" : 30,
     "startTime" : 60,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test4",
@@ -89,15 +85,13 @@
     "time" : 30,
     "startTime" : 90,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     }
     ]
 },
 {
     "name" : "Test3",
     "description" : "Test3",
-    "name" : "Test",
-    "description" : "Test",
     "instructionVideoLink" : "Test",
     "ratio" : "Test",
     "totalAmount" : 240,
@@ -109,7 +103,7 @@
     "time" : 30,
     "startTime" : 0,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test2",
@@ -118,7 +112,7 @@
     "time" : 30,
     "startTime" : 30,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test3",
@@ -127,7 +121,7 @@
     "time" : 30,
     "startTime" : 60,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test4",
@@ -136,15 +130,13 @@
     "time" : 30,
     "startTime" : 90,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     }
     ]
 },
 {
     "name" : "Test4",
     "description" : "Test4",
-    "name" : "Test",
-    "description" : "Test",
     "instructionVideoLink" : "Test",
     "ratio" : "Test",
     "totalAmount" : 240,
@@ -156,7 +148,7 @@
     "time" : 30,
     "startTime" : 0,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test2",
@@ -165,7 +157,7 @@
     "time" : 30,
     "startTime" : 30,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test3",
@@ -174,7 +166,7 @@
     "time" : 30,
     "startTime" : 60,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     },
     {
 	"name" : "Test4",
@@ -183,7 +175,7 @@
     "time" : 30,
     "startTime" : 90,
     "amount" : 60,
-    "ration" : 0.25
+    "ratio" : 0.25
     }
     ]
 }]

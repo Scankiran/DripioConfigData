@@ -121,7 +121,7 @@
     "totalAmount": 200,
     "name": "4X50",
     "ratio": "1/16",
-    "description": "\"}"
+    "description": ""
   },
   {
     "steps": [
@@ -156,6 +156,6 @@
     "totalAmount": 500,
     "name": "James Hoffman - The Ultimate",
     "ratio": "1/16",
-    "description": "\"}"
+    "description": ""
   }
 ]

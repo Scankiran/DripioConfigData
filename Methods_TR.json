@@ -88,7 +88,7 @@
         "steps": [
             {
                 "name": "Blooming",
-                "instruction": "Kahveyi dökün, düzleştirin ve 60g su blooming'e yapın. 10 saniye içinde tüm kahveyi ıslatmak için yavaşça dökün.",
+                "instruction": "Kahveyi dökün, düzleştirin ve 60g su ile blooming yapın. 10 saniye içinde tüm kahveyi ıslatmak için yavaşça dökün.",
                 "isBlooming": true,
                 "time": 45,
                 "startTime": 0,
@@ -126,7 +126,7 @@
     },
     {
         "name": "Tetsu Kasuya’s Modern 4:6 Metodu",
-        "description": "Tatlı ve zarif. Ağzınızı sulandıracak bi kahvenin tadını çıkarın! Normalden biraz daha kalın öğütümde kahve kullanın. Bu reçetede 40 gram kahve ve 600 gram su kullanacağız",
+        "description": "Tatlı ve zarif. Ağzınızı sulandıracak bir kahvenin tadını çıkarın! Normalden biraz daha kalın öğütümde kahve kullanın. Bu reçetede 40 gram kahve ve 600 gram su kullanacağız",
         "instructionVideoLink": null,
         "ratio": " 1:15- 40g for 600g",
         "totalAmount": 600,
@@ -258,7 +258,7 @@
                 "ratio": 0.18
             },
             {
-                "name": "Su dökümünü 120 grama kadar devam ettirin..",
+                "name": "Su dökümünü 120 grama kadar devam ettirin.",
                 "instruction": "Demlemenin geri kalanını aynı spiral hareketle, filtre kağıdının üzerine dökmemeye özellikle dikkat ederek dökün.",
                 "isBlooming": false,
                 "time": 30,
@@ -267,7 +267,7 @@
                 "ratio": 0.82
             },
             {
-                "name": "Demlemenin bitmesin ibekleyin",
+                "name": "Demlemenin bitmesini bekleyin",
                 "instruction": "Demlemeniz bittiğinde dripper'ı kaldırın.",
                 "isBlooming": false,
                 "time": 20,

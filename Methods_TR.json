@@ -1,280 +1,467 @@
 [
-    {
-        "steps": [
-            {
-                "amount": 60,
-                "instruction": "Öğütülmüş kahveyi 60 gram kahve ile aktifleştirin. 25 saniye bekleyin.",
-                "time": 30,
-                "ratio": 0.25,
-                "startTime": 0,
-                "name": "Blooming",
-                "isBlooming": true
-            },
-            {
-                "amount": 60,
-                "instruction": "2. su dökümüne başlayın ve dökümü 120 grama kadar devam ettirin.",
-                "time": 25,
-                "ratio": 0.25,
-                "startTime": 30,
-                "name": "Döküm 1",
-                "isBlooming": false
-            },
-            {
-                "amount": 60,
-                "instruction": "3. su dökümüne başlayın ve dökümü 180 grama kadar devam ettirin.",
-                "time": 25,
-                "ratio": 0.25,
-                "startTime": 55,
-                "name": "Döküm 2",
-                "isBlooming": false
-            },
-            {
-                "amount": 60,
-                "instruction": "Son su dökümüne başlayın ve dökümü 240 grama kadar devam ettirin. Ve demlemenin bitimini bekleyin. Hedef demleme süresi 2 dakika 20 saniye.",
-                "time": 60,
-                "ratio": 0.25,
-                "startTime": 80,
-                "name": "Döküm 3",
-                "isBlooming": false
-            }
-        ],
-        "totalAmount": 240,
-        "name": "Orkun Ustel 4X60",
-        "ratio": "1/16",
-        "description": "Orkun Üstel tarafından referans tarif olarak kullanılmaktadır. Orkun, Youtube kanalındaki tariflerde bu tarifi kullanarak demliyor."
-    },
-    {
-        "name": "Scott Rao’s V60 – Spin to Win",
-        "description": "Scott Rao, demlemenin ısısını koruyan ve demleme sırasında huniyi kendinizi yakmadan hareket ettirmenize olanak tanıyan plastik V60'ı tavsiye ediyor. Bu demlemede 22 gram kahve ve 360 gram su kullanılıyor. ",
-        "instructionVideoLink": "https://www.youtube.com/watch?v=c0Qe_ASxfNM",
-        "ratio": " 1:16.4 - 22g for 360g",
-        "totalAmount": 360,
-        "steps": [
-            {
-                "name": "Blooming",
-                "instruction": "Kahveyi dökün, düzleştirin ve 66g su blooming'e yapın. 10 saniye içinde tüm kahveyi ıslatmak için yavaşça dökün.",
-                "isBlooming": true,
-                "time": 45,
-                "startTime": 0,
-                "amount": 66,
-                "ratio": 0.18
-            },
-            {
-                "name": "Demlemeye 360 grama kadar devam ettirin.",
-                "instruction": "Su dökümünden sonra kahvelerin kenarlara yapışmasını önlemek için yavaşça bir kaşık yardımı ile karıştırın.",
-                "isBlooming": false,
-                "time": 60,
-                "startTime": 45,
-                "amount": 292,
-                "ratio": 0.82
-            },
-            {
-                "name": "Kahve yatağını düzleştirmek için 2 tur spin attırın.",
-                "instruction": "Demleme 3 dakika içinde tamamlanmalıdır.",
-                "isBlooming": false,
-                "time": 75,
-                "startTime": 105,
-                "amount": 0,
-                "ratio": 0.0
-            }
-        ]
-    },
-    {
-        "name": "The Ultimate V60 – James Hoffman",
-        "description": "James Hoffman plastik V60'ı tavsiye ediyor, ancak kişisel olarak plastik uçlu bir cam sürahi olan Hario Drip Decanter'ı kullanıyor. Hoffman ayrıca yüksek ısı, drip kettle ve yumuşak, hoş tada sahip su kullanmayı öneriyor. Bu metodda 30 gram kahve 500 gram su kullanılıyor. 2 kişilik demlemeler için ideal bir metod.",
-        "instructionVideoLink": null,
-        "ratio": " 1:16.7 - 30g for 500g",
-        "totalAmount": 500,
-        "steps": [
-            {
-                "name": "Blooming",
-                "instruction": "Kahveyi dökün, düzleştirin ve 60g su ile blooming yapın. 10 saniye içinde tüm kahveyi ıslatmak için yavaşça dökün.",
-                "isBlooming": true,
-                "time": 45,
-                "startTime": 0,
-                "amount": 60,
-                "ratio": 0.18
-            },
-            {
-                "name": "Su dökümünü 300 grama kadar devam ettirin.",
-                "instruction": "",
-                "isBlooming": false,
-                "time": 30,
-                "startTime": 45,
-                "amount": 240,
-                "ratio": 0.82
-            },
-            {
-                "name": "Su dökümünü 500 grama kadar devam ettirin.",
-                "instruction": "",
-                "isBlooming": false,
-                "time": 30,
-                "startTime": 75,
-                "amount": 200,
-                "ratio": 0.0
-            },
-            {
-                "name": "Yavaşça karıştırın ve demlemenin bitmesini bekleyin",
-                "instruction": "Kahve parçalarını yanlardan atmak için saat yönünde ve saat yönünün tersine yavaşça karıştırın. Eşit ekstraksiyon için kahve yatağını düzleştirmek üzere dripper'ı döndürün. Demlemeyi 3 dakika 30 saniye içinde bitirmeyi hedefleyin.",
-                "isBlooming": false,
-                "time": 105,
-                "startTime": 105,
-                "amount": 0,
-                "ratio": 0.0
-            }
-        ]
-    },
-    {
-        "name": "Tetsu Kasuya’s Modern 4:6 Metodu",
-        "description": "Tatlı ve zarif. Ağzınızı sulandıracak bir kahvenin tadını çıkarın! Normalden biraz daha kalın öğütümde kahve kullanın. Bu reçetede 40 gram kahve ve 600 gram su kullanacağız",
-        "instructionVideoLink": null,
-        "ratio": " 1:15- 40g for 600g",
-        "totalAmount": 600,
-        "steps": [
-            {
-                "name": "Blooming",
-                "instruction": "100 gram sıcak suyu sürekli dairesel hareketlerle, merkez noktasından daha geniş bir daireye ve ardından tekrar merkez noktasına doğru dökün. Dökmeyi 10 saniye içinde tamamlayın, ardından duraklayın.",
-                "isBlooming": true,
-                "time": 45,
-                "startTime": 0,
-                "amount": 100,
-                "ratio": 0.18
-            },
-            {
-                "name": "Su dökümünü 240 grama kadar devam ettirin.",
-                "instruction": "Demlemenin geri kalanını aynı spiral hareketle, filtre kağıdına yaklaşmadan, filtre kağıdına dökmemeye özellikle dikkat ederek dökün.",
-                "isBlooming": false,
-                "time": 45,
-                "startTime":45,
-                "amount": 140,
-                "ratio": 0.16
-            },
-            {
-                "name": "Su dökümünü 360 grama kadar devam ettirin.",
-                "instruction": "Demlemenin geri kalanını aynı spiral hareketle, filtre kağıdına yaklaşmadan, filtre kağıdına dökmemeye özellikle dikkat ederek dökün.",
-                "isBlooming": false,
-                "time": 45,
-                "startTime":90,
-                "amount": 120,
-                "ratio": 0.16
-            },
-            {
-                "name": "Su dökümünü 480 grama kadar devam ettirin.",
-                "instruction": "Demlemenin geri kalanını aynı spiral hareketle, filtre kağıdına yaklaşmadan, filtre kağıdına dökmemeye özellikle dikkat ederek dökün.",
-                "isBlooming": false,
-                "time": 45,
-                "startTime":135,
-                "amount": 120,
-                "ratio": 0.16
-            },
-            {
-                "name": "Su dökümünü 600 grama kadar devam ettirin.",
-                "instruction": "Dökümden sonra tüm suyun akarak kahvenin demlesini bekleyin. Demlemeyi 3 dakika 30 saniye içerisinde bitirmeyi hedefleyin.",
-                "isBlooming": false,
-                "time": 30,
-                "startTime":180,
-                "amount": 120,
-                "ratio": 0.16
-            }
-        ]
-    },
-    {
-        "name": "Intelligentsia Kahve Reçetesi",
-        "description": "Gerçek bir üçüncü dalga kahve öncüsü olan ABD merkezli Intelligentsia Coffee, sürekli olarak yerel ve uluslararası en iyiler listelerine giriyor ve ödüllü baristalara ev sahipliği yapıyor. Bu reçetede onların genelde demlediği şekilde kahve demleyeceğiz. \n Öğütme Boyutu: İnce",
-        "instructionVideoLink": null,
-        "ratio": " 1:18- 26g for 468g",
-        "totalAmount": 468,
-        "steps": [
-            {
-                "name": "Blooming",
-                "instruction": "Blooming için 52g (kahve ağırlığının 2 katı) su ekleyin. Merkezden dışarı doğru saat yönünde spiral şeklinde dökün. Yaklaşık dakika bekleyin.",
-                "isBlooming": true,
-                "time": 60,
-                "startTime": 0,
-                "amount": 52,
-                "ratio": 0.18
-            },
-            {
-                "name": "Su dökümünü 130 grama kadar devam ettirin.",
-                "instruction": "Dökmeler arasında 10-12 saniye bekleyerek, her seferinde 80 gr su ekleyin. Dökme işlemi, suyun doğrudan aşağıya düşmesini sağlayacak kadar yavaş olmalı ve kahve yatağının ortasında yoğunlaşarak dışarıya doğru hareket etmelidir.",
-                "isBlooming": false,
-                "time": 45,
-                "startTime":45,
-                "amount": 80,
-                "ratio": 0.16
-            },
-            {
-                "name": "Su dökümünü 210 grama kadar devam ettirin.",
-                "instruction": "Dökmeler arasında 10-12 saniye bekleyerek, her seferinde 80 gr su ekleyin. Dökme işlemi, suyun doğrudan aşağıya düşmesini sağlayacak kadar yavaş olmalı ve kahve yatağının ortasında yoğunlaşarak dışarıya doğru hareket etmelidir.",
-                "isBlooming": false,
-                "time": 45,
-                "startTime":90,
-                "amount": 80,
-                "ratio": 0.16
-            },
-            {
-                "name": "Su dökümünü 290 grama kadar devam ettirin.",
-                "instruction": "Dökmeler arasında 10-12 saniye bekleyerek, her seferinde 80 gr su ekleyin. Dökme işlemi, suyun doğrudan aşağıya düşmesini sağlayacak kadar yavaş olmalı ve kahve yatağının ortasında yoğunlaşarak dışarıya doğru hareket etmelidir.",
-                "isBlooming": false,
-                "time": 45,
-                "startTime":135,
-                "amount": 80,
-                "ratio": 0.16
-            },
-            {
-                "name": "Su dökümünü 370 grama kadar devam ettirin.",
-                "instruction": "Dökmeler arasında 10-12 saniye bekleyerek, her seferinde 80 gr su ekleyin. Dökme işlemi, suyun doğrudan aşağıya düşmesini sağlayacak kadar yavaş olmalı ve kahve yatağının ortasında yoğunlaşarak dışarıya doğru hareket etmelidir.",
-                "isBlooming": false,
-                "time": 30,
-                "startTime":180,
-                "amount": 80,
-                "ratio": 0.16
-            },
-            {
-                "name": "Su dökümünü 450 grama kadar devam ettirin.",
-                "instruction": "Dökümden sonra, demlemenin bitmesini bekleyin ve demlemeyi 3 dakika 30 saniye içinde bitirmeyi hedefleyin.",
-                "isBlooming": false,
-                "time": 30,
-                "startTime":180,
-                "amount": 80,
-                "ratio": 0.16
-            }
-        ]
-    },
-    {
-        "name": "Hario V60 Orjinal Tarifi",
-        "description": "Hario V60 Orjinal Tarifi",
-        "instructionVideoLink": null,
-        "ratio": " 1:10- 12g for 120g",
-        "totalAmount": 120,
-        "steps": [
-            {
-                "name": "Blooming",
-                "instruction": "İlk önce filtreyi ıslatın ve V60'ı önceden ısıtın (Plastik dripper değilse). Daha sonra kahvenin ortasından dışarı doğru spiral şeklinde kaynar su dökün. 30 saniye boyunca bekleyin.",
-                "isBlooming": true,
-                "time": 30,
-                "startTime": 0,
-                "amount": 30,
-                "ratio": 0.18
-            },
-            {
-                "name": "Su dökümünü 120 grama kadar devam ettirin.",
-                "instruction": "Demlemenin geri kalanını aynı spiral hareketle, filtre kağıdının üzerine dökmemeye özellikle dikkat ederek dökün.",
-                "isBlooming": false,
-                "time": 30,
-                "startTime":30,
-                "amount": 90,
-                "ratio": 0.82
-            },
-            {
-                "name": "Demlemenin bitmesini bekleyin",
-                "instruction": "Demlemeniz bittiğinde dripper'ı kaldırın.",
-                "isBlooming": false,
-                "time": 20,
-                "startTime": 60,
-                "amount": 0,
-                "ratio": 0.0
-            }
-        ]
-    }
+  {
+    "name": "Scott Rao’s V60 – Spin to Win",
+    "description": "Scott Rao, demlemenin ısısını koruyan ve demleme sırasında huniyi kendinizi yakmadan hareket ettirmenize olanak tanıyan plastik V60'ı tavsiye ediyor. Bu demlemede 22 gram kahve ve 360 gram su kullanılıyor. ",
+    "instructionVideoLink": "https://www.youtube.com/watch?v=c0Qe_ASxfNM",
+    "ratio": "1:16.4 - 22Gr",
+    "totalAmount": 360,
+    "steps": [
+      {
+        "name": "Blooming",
+        "instruction": "Kahveyi dökün, düzleştirin ve 66g su blooming'e yapın. 10 saniye içinde tüm kahveyi ıslatmak için yavaşça dökün.",
+        "isBlooming": true,
+        "time": 45,
+        "startTime": 0,
+        "amount": 66,
+        "ratio": 0.18
+      },
+      {
+        "name": "Demlemeye 360 grama kadar devam ettirin.",
+        "instruction": "Su dökümünden sonra kahvelerin kenarlara yapışmasını önlemek için yavaşça bir kaşık yardımı ile karıştırın.",
+        "isBlooming": false,
+        "time": 60,
+        "startTime": 45,
+        "amount": 292,
+        "ratio": 0.82
+      },
+      {
+        "name": "Kahve yatağını düzleştirmek için 2 tur spin attırın.",
+        "instruction": "Demleme 3 dakika içinde tamamlanmalıdır.",
+        "isBlooming": false,
+        "time": 75,
+        "startTime": 105,
+        "amount": 0,
+        "ratio": 0.0
+      }
+    ]
+  },
+  {
+    "totalAmount": 300,
+    "name": "Matt Winton - Five Pour Receipe",
+    "ratio": "1:15 - 20 Gr",
+    "description": "Matt Winton, 2021 Dünya Brewers Kupası Şampiyonu. Matt'in kendisine Dünya Şampiyonu unvanını kazandıran tarifi Dripio'da! 93 derece su ve kalın öğütülmüş çekirdek kullanıyor. Ve metal Hario V60'ı tavsiye ediyor. Matt'in metodundaki strateji şudur, dökümden sonra  suyun damla damla akmasını bekler ve ardından bir sonraki su dökme işlemine başlar. Biz, suyun damla damla akması için 25 saniyenin yeterli olduğunu gördük. Suyunuz hızlı akıyorsa daha ince öğütülmül kahve deneyebilirsiniz.",
+    "steps": [
+      {
+        "amount": 60,
+        "instruction": "Kahveyi dökün ve düzleştirin. Blooming'e başlayın. Sıcak suyu merkezden genişleyecek şekilde dairesel hareketlerle dökün.",
+        "time": 30,
+        "ratio": 0.25,
+        "startTime": 0,
+        "name": "Blooming",
+        "isBlooming": true
+      },
+      {
+        "amount": 60,
+        "instruction": "120 grama kadar su dökün",
+        "time": 15,
+        "ratio": 0.25,
+        "startTime": 45,
+        "name": "60 Gram su dökün",
+        "isBlooming": false
+      },
+      {
+        "amount": 0,
+        "instruction": "Suyunuz damla damla akana kadar bekleyin.",
+        "time": 25,
+        "ratio": 0.25,
+        "startTime": 60,
+        "name": "Bekleyin",
+        "isBlooming": false
+      },
+      {
+        "amount": 60,
+        "instruction": "180 grama kadar su dökün",
+        "time": 10,
+        "ratio": 0.25,
+        "startTime": 85,
+        "name": "60 Gram su dökün",
+        "isBlooming": false
+      },
+      {
+        "amount": 0,
+        "instruction": "Suyunuz damla damla akana kadar bekleyin.",
+        "time": 25,
+        "ratio": 0.25,
+        "startTime": 95,
+        "name": "Bekleyin",
+        "isBlooming": false
+      },
+      {
+        "amount": 60,
+        "instruction": "240 grama kadar su dökün",
+        "time": 10,
+        "ratio": 0.25,
+        "startTime": 120,
+        "name": "60 Gram su dökün",
+        "isBlooming": false
+      },
+      {
+        "amount": 0,
+        "instruction": "Suyunuz damla damla akana kadar bekleyin.",
+        "time": 25,
+        "ratio": 0.25,
+        "startTime": 130,
+        "name": "Bekleyin",
+        "isBlooming": false
+      },
+      {
+        "amount": 50,
+        "instruction": "300 grama kadar su dökün",
+        "time": 10,
+        "ratio": 0.25,
+        "startTime": 155,
+        "name": "60 Gram su dökün",
+        "isBlooming": false
+      },
+      {
+        "amount": 0,
+        "instruction": "Demleme 3.30 civarında bitmeli.",
+        "time": 45,
+        "ratio": 0.25,
+        "startTime": 165,
+        "name": "Demlemenin bitmesini bekleyin",
+        "isBlooming": false
+      }
+    ]
+  },
+  {     
+    "totalAmount": 250,
+    "name": "James Hoffman - A Better 1 Cup ",
+    "ratio": "1:16.6 - 15 Gr",
+    "description": "James bu metodun eğlenceli ve kolay olduğunu belirtiyor. Ayrıca çok lezzetli kahve çıktısını alabileceğini söylüyor. Demlemede kaynar su ve Orta-Ince ayarda öğütülmüş kahve kullanıyor. Öğütümün standart V60 öğütümlerinden biraz daha ince olarak öğütülmüş olduğunu belirtiyor. Afiyetler olsun.",
+    "steps": [
+      {
+        "amount": 50,
+        "instruction": "Kahveyi dökün ve kuş yuvası şeklinde ortasına çukur açın. Daha sonra blooming'e başlayın. 10.-15. saniyeler arasında yavaşça sallayın ya da karıştırın.",
+        "time": 45,
+        "ratio": 0.25,
+        "startTime": 0,
+        "name": "Blooming",
+        "isBlooming": true
+      },
+      {
+        "amount": 50,
+        "instruction": "15 saniye içerisinde 50 gram suyu dökün. (100 Gr)",
+        "time": 15,
+        "ratio": 0.25,
+        "startTime": 45,
+        "name": "50 Gram su dökün",
+        "isBlooming": false
+      },
+      {
+        "amount": 0,
+        "instruction": "Suyun akmasını bekleyin.",
+        "time": 10,
+        "ratio": 0.25,
+        "startTime": 60,
+        "name": "Bekle",
+        "isBlooming": false
+      },
+      {
+        "amount": 50,
+        "instruction": "10 saniye içerisinde 50 gram suyu dökün. (150 Gr)",
+        "time": 10,
+        "ratio": 0.25,
+        "startTime": 70,
+        "name": "50 Gram su dökün",
+        "isBlooming": false
+      },
+      {
+        "amount": 0,
+        "instruction": "Suyun akmasını bekleyin.",
+        "time": 10,
+        "ratio": 0.25,
+        "startTime": 80,
+        "name": "Bekle",
+        "isBlooming": false
+      },
+      {
+        "amount": 50,
+        "instruction": "10 saniye içerisinde 50 gram suyu dökün. (200 Gr)",
+        "time": 10,
+        "ratio": 0.25,
+        "startTime": 90,
+        "name": "50 Gram su dökün",
+        "isBlooming": false
+      },
+      {
+        "amount": 0,
+        "instruction": "Suyun akmasını bekleyin.",
+        "time": 10,
+        "ratio": 0.25,
+        "startTime": 100,
+        "name": "Bekle",
+        "isBlooming": false
+      },
+      {
+        "amount": 50,
+        "instruction": "10 saniye içerisinde 50 gram suyu dökün. (250 Gr)",
+        "time": 10,
+        "ratio": 0.25,
+        "startTime": 110,
+        "name": "50 Gram su dökün",
+        "isBlooming": false
+      },
+      {
+        "amount": 0,
+        "instruction": "Yavaşça sallayın ya da karıştırın.",
+        "time": 5,
+        "ratio": 0.25,
+        "startTime": 120,
+        "name": "Karıştırın",
+        "isBlooming": false
+      },
+      {
+        "amount": 0,
+        "instruction": "Demleme 3.00 civarında tamamlanmalı. Öğütüme göre süre değişebilir. Önemli olan kahvenin tadı.",
+        "time": 40,
+        "ratio": 0.25,
+        "startTime": 125,
+        "name": "Demlemenin bitmesini bekleyin",
+        "isBlooming": false
+      }
+    ]        
+  },
+  {
+    "name": "The Ultimate V60 – James Hoffman",
+    "description": "James Hoffman plastik V60'ı tavsiye ediyor, ancak kişisel olarak plastik uçlu bir cam sürahi olan Hario Drip Decanter'ı kullanıyor. Hoffman ayrıca yüksek ısı, drip kettle ve yumuşak, hoş tada sahip su kullanmayı öneriyor. Bu metodda 30 gram kahve 500 gram su kullanılıyor. 2 kişilik demlemeler için ideal bir metod.",
+    "instructionVideoLink": null,
+    "ratio": " 1:16.7 - 30 Gr",
+    "totalAmount": 500,
+    "steps": [
+      {
+        "name": "Blooming",
+        "instruction": "Kahveyi dökün, düzleştirin ve 60g su blooming'e yapın. 10 saniye içinde tüm kahveyi ıslatmak için yavaşça dökün.",
+        "isBlooming": true,
+        "time": 45,
+        "startTime": 0,
+        "amount": 60,
+        "ratio": 0.18
+      },
+      {
+        "name": "Su dökümünü 300 grama kadar devam ettirin.",
+        "instruction": "",
+        "isBlooming": false,
+        "time": 30,
+        "startTime": 45,
+        "amount": 240,
+        "ratio": 0.82
+      },
+      {
+        "name": "Su dökümünü 300 grama kadar devam ettirin.",
+        "instruction": "",
+        "isBlooming": false,
+        "time": 30,
+        "startTime": 75,
+        "amount": 200,
+        "ratio": 0.0
+      },
+      {
+        "name": "Yavaşça karıştırın ve demlemenin bitmesini bekleyin",
+        "instruction": "Kahve parçalarını yanlardan atmak için saat yönünde ve saat yönünün tersine yavaşça karıştırın. Eşit ekstraksiyon için kahve yatağını düzleştirmek üzere dripper'ı döndürün. Demlemeyi 3 dakika 30 saniye içinde bitirmeyi hedefleyin.",
+        "isBlooming": false,
+        "time": 105,
+        "startTime": 105,
+        "amount": 0,
+        "ratio": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Tetsu Kasuya’s Modern 4:6 Metodu",
+    "description": "Tatlı ve zarif. Ağzınızı sulandıracak bi kahvenin tadını çıkarın! Normalden biraz daha kalın öğütümde kahve kullanın. Bu reçetede 40 gram kahve ve 600 gram su kullanacağız",
+    "instructionVideoLink": null,
+    "ratio": "1:15 - 40 Gr",
+    "totalAmount": 600,
+    "steps": [
+      {
+        "name": "Blooming",
+        "instruction": "100 gram sıcak suyu sürekli dairesel hareketlerle, merkez noktasından daha geniş bir daireye ve ardından tekrar merkez noktasına doğru dökün. Dökmeyi 10 saniye içinde tamamlayın, ardından duraklayın.",
+        "isBlooming": true,
+        "time": 45,
+        "startTime": 0,
+        "amount": 100,
+        "ratio": 0.18
+      },
+      {
+        "name": "Su dökümünü 240 grama kadar devam ettirin.",
+        "instruction": "Demlemenin geri kalanını aynı spiral hareketle, filtre kağıdına yaklaşmadan, filtre kağıdına dökmemeye özellikle dikkat ederek dökün.",
+        "isBlooming": false,
+        "time": 45,
+        "startTime":45,
+        "amount": 140,
+        "ratio": 0.16
+      },
+      {
+        "name": "Su dökümünü 360 grama kadar devam ettirin.",
+        "instruction": "Demlemenin geri kalanını aynı spiral hareketle, filtre kağıdına yaklaşmadan, filtre kağıdına dökmemeye özellikle dikkat ederek dökün.",
+        "isBlooming": false,
+        "time": 45,
+        "startTime":90,
+        "amount": 120,
+        "ratio": 0.16
+      },
+      {
+        "name": "Su dökümünü 480 grama kadar devam ettirin.",
+        "instruction": "Demlemenin geri kalanını aynı spiral hareketle, filtre kağıdına yaklaşmadan, filtre kağıdına dökmemeye özellikle dikkat ederek dökün.",
+        "isBlooming": false,
+        "time": 45,
+        "startTime":135,
+        "amount": 120,
+        "ratio": 0.16
+      },
+      {
+        "name": "Su dökümünü 600 grama kadar devam ettirin.",
+        "instruction": "Dökümden sonra tüm suyun akarak kahvenin demlesini bekleyin. Demlemeyi 3 dakika 30 saniye içerisinde bitirmeyi hedefleyin.",
+        "isBlooming": false,
+        "time": 30,
+        "startTime":180,
+        "amount": 120,
+        "ratio": 0.16
+      }
+    ]
+},
+  {
+    "name": "Intelligentsia Kahve Reçetesi",
+    "description": "Gerçek bir üçüncü dalga kahve öncüsü olan ABD merkezli Intelligentsia Coffee, sürekli olarak yerel ve uluslararası en iyiler listelerine giriyor ve ödüllü baristalara ev sahipliği yapıyor. Bu reçetede onların genelde demlediği şekilde kahve demleyeceğiz. \n Öğütme Boyutu: İnce",
+    "instructionVideoLink": null,
+    "ratio": "1:18 - 26 Gr",
+    "totalAmount": 468,
+    "steps": [
+      {
+        "name": "Blooming",
+        "instruction": "Blooming için 52g (kahve ağırlığının 2 katı) su ekleyin. Merkezden dışarı doğru saat yönünde spiral şeklinde dökün. Yaklaşık dakika bekleyin.",
+        "isBlooming": true,
+        "time": 60,
+        "startTime": 0,
+        "amount": 52,
+        "ratio": 0.18
+      },
+      {
+        "name": "Su dökümünü 130 grama kadar devam ettirin.",
+        "instruction": "Dökmeler arasında 10-12 saniye bekleyerek, her seferinde 80 gr su ekleyin. Dökme işlemi, suyun doğrudan aşağıya düşmesini sağlayacak kadar yavaş olmalı ve kahve yatağının ortasında yoğunlaşarak dışarıya doğru hareket etmelidir.",
+        "isBlooming": false,
+        "time": 45,
+        "startTime":60,
+        "amount": 80,
+        "ratio": 0.16
+      },
+      {
+        "name": "Su dökümünü 210 grama kadar devam ettirin.",
+        "instruction": "Dökmeler arasında 10-12 saniye bekleyerek, her seferinde 80 gr su ekleyin. Dökme işlemi, suyun doğrudan aşağıya düşmesini sağlayacak kadar yavaş olmalı ve kahve yatağının ortasında yoğunlaşarak dışarıya doğru hareket etmelidir.",
+        "isBlooming": false,
+        "time": 45,
+        "startTime":105,
+        "amount": 80,
+        "ratio": 0.16
+      },
+      {
+        "name": "Su dökümünü 290 grama kadar devam ettirin.",
+        "instruction": "Dökmeler arasında 10-12 saniye bekleyerek, her seferinde 80 gr su ekleyin. Dökme işlemi, suyun doğrudan aşağıya düşmesini sağlayacak kadar yavaş olmalı ve kahve yatağının ortasında yoğunlaşarak dışarıya doğru hareket etmelidir.",
+        "isBlooming": false,
+        "time": 45,
+        "startTime":150,
+        "amount": 80,
+        "ratio": 0.16
+      },
+      {
+        "name": "Su dökümünü 370 grama kadar devam ettirin.",
+        "instruction": "Dökmeler arasında 10-12 saniye bekleyerek, her seferinde 80 gr su ekleyin. Dökme işlemi, suyun doğrudan aşağıya düşmesini sağlayacak kadar yavaş olmalı ve kahve yatağının ortasında yoğunlaşarak dışarıya doğru hareket etmelidir.",
+        "isBlooming": false,
+        "time": 30,
+        "startTime":195,
+        "amount": 80,
+        "ratio": 0.16
+      },
+      {
+        "name": "Su dökümünü 450 grama kadar devam ettirin.",
+        "instruction": "Dökümden sonra, demlemenin bitmesini bekleyin ve demlemeyi 3 dakika 30 saniye içinde bitirmeyi hedefleyin.",
+        "isBlooming": false,
+        "time": 30,
+        "startTime":225,
+        "amount": 80,
+        "ratio": 0.16
+      }
+    ]
+},
+  {
+    "name": "Hario V60 Orjinal Tarifi",
+    "description": "Hario V60 Orjinal Tarifi",
+    "instructionVideoLink": null,
+    "ratio": "1:10 - 12 Gr",
+    "totalAmount": 120,
+    "steps": [
+      {
+        "name": "Blooming",
+        "instruction": "İlk önce filtreyi ıslatın ve V60'ı önceden ısıtın (Plastik dripper değilse). Daha sonra kahvenin ortasından dışarı doğru spiral şeklinde kaynar su dökün. 30 saniye boyunca bekleyin.",
+        "isBlooming": true,
+        "time": 30,
+        "startTime": 0,
+        "amount": 30,
+        "ratio": 0.18
+      },
+      {
+        "name": "Su dökümünü 120 grama kadar devam ettirin..",
+        "instruction": "Demlemenin geri kalanını aynı spiral hareketle, filtre kağıdının üzerine dökmemeye özellikle dikkat ederek dökün.",
+        "isBlooming": false,
+        "time": 30,
+        "startTime":30,
+        "amount": 90,
+        "ratio": 0.82
+      },
+      {
+        "name": "Demlemenin bitmesin ibekleyin",
+        "instruction": "Demlemeniz bittiğinde dripper'ı kaldırın.",
+        "isBlooming": false,
+        "time": 20,
+        "startTime": 60,
+        "amount": 0,
+        "ratio": 0.0
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "amount": 60,
+        "instruction": "Öğütülmüş kahveyi 60 gram kahve ile aktifleştirin. 25 saniye bekleyin.",
+        "time": 30,
+        "ratio": 0.25,
+        "startTime": 0,
+        "name": "Blooming",
+        "isBlooming": true
+      },
+      {
+        "amount": 60,
+        "instruction": "2. su dökümüne başlayın ve dökümü 120 grama kadar devam ettirin.",
+        "time": 25,
+        "ratio": 0.25,
+        "startTime": 30,
+        "name": "Döküm 1",
+        "isBlooming": false
+      },
+      {
+        "amount": 60,
+        "instruction": "3. su dökümüne başlayın ve dökümü 180 grama kadar devam ettirin.",
+        "time": 25,
+        "ratio": 0.25,
+        "startTime": 55,
+        "name": "Döküm 2",
+        "isBlooming": false
+      },
+      {
+        "amount": 60,
+        "instruction": "Son su dökümüne başlayın ve dökümü 240 grama kadar devam ettirin. Ve demlemenin bitimini bekleyin. Hedef demleme süresi 2 dakika 20 saniye.",
+        "time": 60,
+        "ratio": 0.25,
+        "startTime": 80,
+        "name": "Döküm 3",
+        "isBlooming": false
+      }
+    ],
+    "totalAmount": 240,
+    "name": "Orkun Ustel 4X60",
+    "ratio": "1:16 - 15 Gr",
+    "description": "Orkun Üstel tarafından referans tarif olarak kullanılmaktadır. Orkun, Youtube kanalındaki tariflerde bu tarifi kullanarak demliyor."
+  }
 ]

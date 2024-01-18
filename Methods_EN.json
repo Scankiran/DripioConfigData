@@ -40,14 +40,201 @@
         ],
         "totalAmount": 240,
         "name": "Orkun Ustel 4X60",
-        "ratio": "1/16",
+        "ratio": "1:16 - 15 Gr",
         "description": "It is used as a reference recipe by Orkun Üstel. Orkun brews using this recipe in the recipes on his Youtube channel."
+    },
+    {
+        "steps": [
+            {
+                "amount": 50,
+                "instruction": "Make coffee bloom. Between 10s - 15s swirl gently.",
+                "time": 45,
+                "ratio": 0.25,
+                "startTime": 0,
+                "name": "Blooming",
+                "isBlooming": true
+            },
+            {
+                "amount": 50,
+                "instruction": "Drip water until 100g of water.",
+                "time": 15,
+                "ratio": 0.25,
+                "startTime": 45,
+                "name": "Pour 50g water.",
+                "isBlooming": false
+            },
+            {
+                "amount": 0,
+                "instruction": "Wait dripping water.",
+                "time": 10,
+                "ratio": 0.25,
+                "startTime": 60,
+                "name": "Wait",
+                "isBlooming": false
+            },
+            {
+                "amount": 50,
+                "instruction": "Drip water until 150g of water.",
+                "time": 10,
+                "ratio": 0.25,
+                "startTime": 70,
+                "name": "Pour 50g water.",
+                "isBlooming": false
+            },
+            {
+                "amount": 0,
+                "instruction": "Wait dripping water.",
+                "time": 10,
+                "ratio": 0.25,
+                "startTime": 80,
+                "name": "Wait",
+                "isBlooming": false
+            },
+            {
+                "amount": 50,
+                "instruction": "Drip water until 200g of water.",
+                "time": 10,
+                "ratio": 0.25,
+                "startTime": 90,
+                "name": "Pour 50g water.",
+                "isBlooming": false
+            },
+            {
+                "amount": 0,
+                "instruction": "Wait dripping water.",
+                "time": 10,
+                "ratio": 0.25,
+                "startTime": 100,
+                "name": "Wait",
+                "isBlooming": false
+            },
+            {
+                "amount": 50,
+                "instruction": "Drip water until 250g of water.",
+                "time": 10,
+                "ratio": 0.25,
+                "startTime": 110,
+                "name": "Pour 50g water.",
+                "isBlooming": false
+            },
+            {
+                "amount": 0,
+                "instruction": "Gently Swirl",
+                "time": 5,
+                "ratio": 0.25,
+                "startTime": 120,
+                "name": "Swirl",
+                "isBlooming": false
+            },
+            {
+                "amount": 0,
+                "instruction": "Drawdown should finish around 3:00, but expect some variance here. Taste is the most important thing!",
+                "time": 40,
+                "ratio": 0.25,
+                "startTime": 125,
+                "name": "Wait Drawdown",
+                "isBlooming": false
+            }
+        ],
+        "totalAmount": 250,
+        "name": "James Hoffman - A Better 1 Cup ",
+        "ratio": "1:16.6 - 15 Gr",
+        "description": "James says, this is really fun, really easy and it gives delicious coffee receipe. Used fresh boiled water. Grind Settings: Medium - Fine (finer than general V60 grind settings)."
+    },
+    {
+        "steps": [
+            {
+                "amount": 60,
+                "instruction": "Make coffee bloom. Pour hot water in a continuous circular motion, moving from the centre point into a wider circle",
+                "time": 30,
+                "ratio": 0.25,
+                "startTime": 0,
+                "name": "Blooming",
+                "isBlooming": true
+            },
+            {
+                "amount": 60,
+                "instruction": "Drip water until 120g of water.",
+                "time": 15,
+                "ratio": 0.25,
+                "startTime": 45,
+                "name": "Pour 60g water.",
+                "isBlooming": false
+            },
+            {
+                "amount": 0,
+                "instruction": "Wait dripping water.",
+                "time": 20,
+                "ratio": 0.25,
+                "startTime": 60,
+                "name": "Wait",
+                "isBlooming": false
+            },
+            {
+                "amount": 60,
+                "instruction": "Drip water until 180g of water.",
+                "time": 10,
+                "ratio": 0.25,
+                "startTime": 80,
+                "name": "Pour 60g water.",
+                "isBlooming": false
+            },
+            {
+                "amount": 0,
+                "instruction": "Wait dripping water.",
+                "time": 20,
+                "ratio": 0.25,
+                "startTime": 90,
+                "name": "Wait",
+                "isBlooming": false
+            },
+            {
+                "amount": 60,
+                "instruction": "Drip water until 240g of water.",
+                "time": 10,
+                "ratio": 0.25,
+                "startTime": 110,
+                "name": "Pour 60g water.",
+                "isBlooming": false
+            },
+            {
+                "amount": 0,
+                "instruction": "Wait dripping water.",
+                "time": 20,
+                "ratio": 0.25,
+                "startTime": 120,
+                "name": "Wait",
+                "isBlooming": false
+            },
+            {
+                "amount": 50,
+                "instruction": "Drip water until 300g of water.",
+                "time": 10,
+                "ratio": 0.25,
+                "startTime": 110,
+                "name": "Pour 60g water.",
+                "isBlooming": false
+            },
+            {
+                "amount": 0,
+                "instruction": "Drawdown should finish around 3:30.",
+                "time": 40,
+                "ratio": 0.25,
+                "startTime": 120,
+                "name": "Wait Drawdown",
+                "isBlooming": false
+            }
+        ],
+        "totalAmount": 300,
+        "name": "Matt Winton - Five Pour Receipe",
+        "ratio": "1:15 - 20 Gr",
+        "description": "Matt Winton is 2021 World Brewers Cup Shampion. Matt shares the recipe that won him the title of World Champion! He using 93 celcius water and coarser grind. And, he strongly recommend metal Hario V60. Also, he waits until the water flows drop by drop and then starts the next water pour. We found that 20 seconds was enough for the water to flow drop by drop. If your water flows fast, you can go for finer grinding. "
     },
     {
         "name": "Scott Rao’s V60 – Spin to Win",
         "description": "Scott Rao “strongly recommends” the plastic V60, which maintains the heat of the brew and allows you to manipulate the funnel during the brew without burning yourself.",
         "instructionVideoLink": "https://www.youtube.com/watch?v=c0Qe_ASxfNM",
-        "ratio": " 1:16.4 - 22g for 360g",
+        "ratio": "1:16.4 - 22g",
         "totalAmount": 360,
         "steps": [
             {
@@ -83,7 +270,7 @@
         "name": "The Ultimate V60 – James Hoffman",
         "description": "James Hoffman recommends the plastic V60, but personally uses the Hario Drip Decanter, a glass carafe with a plastic insert. Hoffman also emphasises using a pouring kettle for maximum heat, using soft, pleasant-tasting water, and a high-quality burr grinder for consistent grounds.",
         "instructionVideoLink": null,
-        "ratio": " 1:16.7 - 30g for 500g",
+        "ratio": "1:16.7 - 30g",
         "totalAmount": 500,
         "steps": [
             {
@@ -128,7 +315,7 @@
         "name": "Tetsu Kasuya’s Advanced 4:6 Method",
         "description": "Sweet and elegant. Enjoy a juicy brew that stimulates your salivary glands! Use coarse grind size.",
         "instructionVideoLink": null,
-        "ratio": " 1:15- 40g for 600g",
+        "ratio": "1:15 - 40g",
         "totalAmount": 600,
         "steps": [
             {
@@ -182,7 +369,7 @@
         "name": "Intelligentsia Coffee Receipt",
         "description": "A veritable third-wave coffee pioneer, the US-based Intelligentsia Coffee consistently makes local and international best-of lists and is home to award-winning baristas. \n Grind Size: Fine",
         "instructionVideoLink": null,
-        "ratio": " 1:18- 26g for 468g",
+        "ratio": "1:18 - 26g",
         "totalAmount": 468,
         "steps": [
             {
@@ -199,7 +386,7 @@
                 "instruction": "Add water 80g of water a time, waiting 10-12s between pours. Pours should be slow enough that the water falls directly downward, and concentrated in the centre of the coffee bed, moving outward.",
                 "isBlooming": false,
                 "time": 45,
-                "startTime":45,
+                "startTime":60,
                 "amount": 80,
                 "ratio": 0.16
             },
@@ -208,7 +395,7 @@
                 "instruction": "Add water 80g of water a time, waiting 10-12s between pours. Pours should be slow enough that the water falls directly downward, and concentrated in the centre of the coffee bed, moving outward.",
                 "isBlooming": false,
                 "time": 45,
-                "startTime":90,
+                "startTime":105,
                 "amount": 80,
                 "ratio": 0.16
             },
@@ -217,7 +404,7 @@
                 "instruction": "Add water 80g of water a time, waiting 10-12s between pours. Pours should be slow enough that the water falls directly downward, and concentrated in the centre of the coffee bed, moving outward.",
                 "isBlooming": false,
                 "time": 45,
-                "startTime":135,
+                "startTime":150,
                 "amount": 80,
                 "ratio": 0.16
             },
@@ -226,7 +413,7 @@
                 "instruction": "Add water 80g of water a time, waiting 10-12s between pours. Pours should be slow enough that the water falls directly downward, and concentrated in the centre of the coffee bed, moving outward.",
                 "isBlooming": false,
                 "time": 30,
-                "startTime":180,
+                "startTime":195,
                 "amount": 80,
                 "ratio": 0.16
             },
@@ -235,7 +422,7 @@
                 "instruction": "Add water 80g of water a time, waiting 10-12s between pours. After pour, wait drawdown and aim to finish drawdown by 3min 30s.",
                 "isBlooming": false,
                 "time": 30,
-                "startTime":180,
+                "startTime":225,
                 "amount": 80,
                 "ratio": 0.16
             }
@@ -245,7 +432,7 @@
         "name": "Hario V60 Original Recipe",
         "description": "Hario V60 Original Recipe",
         "instructionVideoLink": null,
-        "ratio": " 1:10- 12g for 120g",
+        "ratio": "1:10 - 12g",
         "totalAmount": 120,
         "steps": [
             {

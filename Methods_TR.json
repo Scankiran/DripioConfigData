@@ -55,7 +55,7 @@
         "instruction": "120 grama kadar su dökün",
         "time": 15,
         "ratio": 0.25,
-        "startTime": 45,
+        "startTime": 30,
         "name": "60 Gram su dökün",
         "isBlooming": false
       },
@@ -64,7 +64,7 @@
         "instruction": "Suyunuz damla damla akana kadar bekleyin.",
         "time": 25,
         "ratio": 0.25,
-        "startTime": 60,
+        "startTime": 45,
         "name": "Bekleyin",
         "isBlooming": false
       },
@@ -73,7 +73,7 @@
         "instruction": "180 grama kadar su dökün",
         "time": 10,
         "ratio": 0.25,
-        "startTime": 85,
+        "startTime": 70,
         "name": "60 Gram su dökün",
         "isBlooming": false
       },
@@ -82,7 +82,7 @@
         "instruction": "Suyunuz damla damla akana kadar bekleyin.",
         "time": 25,
         "ratio": 0.25,
-        "startTime": 95,
+        "startTime": 80,
         "name": "Bekleyin",
         "isBlooming": false
       },
@@ -91,7 +91,7 @@
         "instruction": "240 grama kadar su dökün",
         "time": 10,
         "ratio": 0.25,
-        "startTime": 120,
+        "startTime": 105,
         "name": "60 Gram su dökün",
         "isBlooming": false
       },
@@ -100,7 +100,7 @@
         "instruction": "Suyunuz damla damla akana kadar bekleyin.",
         "time": 25,
         "ratio": 0.25,
-        "startTime": 130,
+        "startTime": 115,
         "name": "Bekleyin",
         "isBlooming": false
       },
@@ -109,7 +109,7 @@
         "instruction": "300 grama kadar su dökün",
         "time": 10,
         "ratio": 0.25,
-        "startTime": 155,
+        "startTime": 140,
         "name": "60 Gram su dökün",
         "isBlooming": false
       },
@@ -118,7 +118,7 @@
         "instruction": "Demleme 3.30 civarında bitmeli.",
         "time": 45,
         "ratio": 0.25,
-        "startTime": 165,
+        "startTime": 150,
         "name": "Demlemenin bitmesini bekleyin",
         "isBlooming": false
       }

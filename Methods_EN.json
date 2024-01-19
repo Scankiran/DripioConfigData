@@ -157,16 +157,16 @@
                 "instruction": "Drip water until 120g of water.",
                 "time": 15,
                 "ratio": 0.25,
-                "startTime": 45,
+                "startTime": 30,
                 "name": "Pour 60g water.",
                 "isBlooming": false
             },
             {
                 "amount": 0,
                 "instruction": "Wait dripping water.",
-                "time": 20,
+                "time": 25,
                 "ratio": 0.25,
-                "startTime": 60,
+                "startTime": 45,
                 "name": "Wait",
                 "isBlooming": false
             },
@@ -175,16 +175,16 @@
                 "instruction": "Drip water until 180g of water.",
                 "time": 10,
                 "ratio": 0.25,
-                "startTime": 80,
+                "startTime": 70,
                 "name": "Pour 60g water.",
                 "isBlooming": false
             },
             {
                 "amount": 0,
                 "instruction": "Wait dripping water.",
-                "time": 20,
+                "time": 25,
                 "ratio": 0.25,
-                "startTime": 90,
+                "startTime": 80,
                 "name": "Wait",
                 "isBlooming": false
             },
@@ -193,16 +193,16 @@
                 "instruction": "Drip water until 240g of water.",
                 "time": 10,
                 "ratio": 0.25,
-                "startTime": 110,
+                "startTime": 105,
                 "name": "Pour 60g water.",
                 "isBlooming": false
             },
             {
                 "amount": 0,
                 "instruction": "Wait dripping water.",
-                "time": 20,
+                "time": 25,
                 "ratio": 0.25,
-                "startTime": 120,
+                "startTime": 115,
                 "name": "Wait",
                 "isBlooming": false
             },
@@ -211,16 +211,16 @@
                 "instruction": "Drip water until 300g of water.",
                 "time": 10,
                 "ratio": 0.25,
-                "startTime": 110,
+                "startTime": 140,
                 "name": "Pour 60g water.",
                 "isBlooming": false
             },
             {
                 "amount": 0,
                 "instruction": "Drawdown should finish around 3:30.",
-                "time": 40,
+                "time": 45,
                 "ratio": 0.25,
-                "startTime": 120,
+                "startTime": 150,
                 "name": "Wait Drawdown",
                 "isBlooming": false
             }
